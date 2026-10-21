@@ -31,7 +31,21 @@
     function dibujarTodo() {
       limpiarCanvas();
       dibujarTablero();
+      pintarParte(5,5);
+      pintarParte(10,2);
+      pintarParte(10,23);
+      pintarParte(23,10);
+      pintarParte(0,10);
+      pintarParte(23,23);
     }
 
+function pintarParte(lineaX, lineaY){
+  let x=lineaX*TAM_CELDA;
+  let y=lineaY*TAM_CELDA;
+  ctx.fillStyle="#22c55e";
+  ctx.fillRect(x,y,TAM_CELDA,TAM_CELDA);
 
+  ctx.strokeStyle="#000000";
+  ctx.strokeRect(x,y,TAM_CELDA,TAM_CELDA);
+}
 
