@@ -4,7 +4,6 @@
     const ctx = canvas.getContext("2d");
     const TAM_CELDA = 25;
 
-    
 
     dibujarTodo();
 
