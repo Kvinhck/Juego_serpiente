@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(135deg, #1e293b, #0f172a);
+    background: linear-gradient(135deg, #ed8505, #813804);
     color: white;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 .contenedor-juego {
     width: 100%;
     max-width: 720px;
-    background: #111827;
+    background: #482103;
     border-radius: 20px;
     padding: 24px;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.35);
@@ -48,7 +48,7 @@ h1 {
 .tarjeta-info {
     flex: 1;
     min-width: 150px;
-    background: #1f2937;
+    background: #84383b;
     padding: 14px;
     border-radius: 14px;
     border: 1px solid #374151;
@@ -57,7 +57,7 @@ h1 {
 .tarjeta-info span {
     display: block;
     font-size: 14px;
-    color: #94a3b8;
+    color: white;
     margin-bottom: 4px;
 }
 
@@ -69,8 +69,8 @@ h1 {
 canvas {
     width: 100%;
     max-width: 500px;
-    background: #020617;
-    border: 4px solid #22c55e;
+    background: #8f0606;
+    border: 4px solid #ffee02;
     border-radius: 16px;
     display: block;
     margin: 0 auto 20px auto;
@@ -90,7 +90,7 @@ canvas {
     border: none;
     border-radius: 12px;
     padding: 12px 16px;
-    background: #22c55e;
+    background: #F4B942;
     color: #052e16;
     font-weight: bold;
     cursor: pointer;
@@ -100,7 +100,7 @@ canvas {
 .controles button:hover,
 .acciones button:hover {
     transform: scale(1.05);
-    background: #86efac;
+    background: #f3ea698e;
 }
 
 .vacio {
